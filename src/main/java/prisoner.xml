@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<prisoners>
+    <prisoner>
+        <name>Nguyễn Văn A</name>
+        <age>20</age>
+        <address>Hải Dương</address>
+        <identity>030203011295</identity>
+        <crime>Đánh nhau</crime>
+        <punishment>10</punishment>
+        <dateIn>21/04/2023</dateIn>
+        <prisonId>1</prisonId>
+    </prisoner>
+    <prisoner>
+        <name>Nguyễn Văn B</name>
+        <age>20</age>
+        <address>Hải Dương</address>
+        <identity>030203011296</identity>
+        <crime>Ăn Trộm</crime>
+        <punishment>20</punishment>
+        <dateIn>20/04/2023</dateIn>
+        <prisonId>1</prisonId>
+    </prisoner>
+    <prisoner>
+        <name>Trần Thị C</name>
+        <age>27</age>
+        <address>Hải Dương</address>
+        <identity>030203011297</identity>
+        <crime>Đánh nhau</crime>
+        <punishment>10</punishment>
+        <dateIn>21/04/2023</dateIn>
+        <prisonId>1</prisonId>
+    </prisoner>
+    <prisoner>
+        <name>Đỗ Văn D</name>
+        <age>18</age>
+        <address>Hải Dương</address>
+        <identity>030203011298</identity>
+        <crime>Vượt biên</crime>
+        <punishment>6</punishment>
+        <dateIn>21/04/2021</dateIn>
+        <prisonId>2</prisonId>
+    </prisoner>
+    <prisoner>
+        <name>Đinh Văn E</name>
+        <age>50</age>
+        <address>Hải Dương</address>
+        <identity>030203011299</identity>
+        <crime>Tham nhũng</crime>
+        <punishment>36</punishment>
+        <dateIn>21/04/2023</dateIn>
+        <prisonId>2</prisonId>
+    </prisoner>
+    <prisoner>
+        <name>Lê Văn F</name>
+        <age>21</age>
+        <address>Hải Dương</address>
+        <identity>030203011200</identity>
+        <crime>Đánh nhau</crime>
+        <punishment>2</punishment>
+        <dateIn>21/04/2023</dateIn>
+        <prisonId>2</prisonId>
+    </prisoner>
+    <prisoner>
+        <name>Trần Văn G</name>
+        <age>30</age>
+        <address>Hải Dương</address>
+        <identity>030203011201</identity>
+        <crime>Hối lộ</crime>
+        <punishment>12</punishment>
+        <dateIn>21/04/2023</dateIn>
+        <prisonId>3</prisonId>
+    </prisoner>
+    <prisoner>
+        <name>Bùi Văn H</name>
+        <age>21</age>
+        <address>Hải Dương</address>
+        <identity>030203011202</identity>
+        <crime>Đánh nhau</crime>
+        <punishment>10</punishment>
+        <dateIn>21/04/2023</dateIn>
+        <prisonId>4</prisonId>
+    </prisoner>
+    <prisoner>
+        <name>Trần Đức K</name>
+        <age>22</age>
+        <address>Hải Dương</address>
+        <identity>030203011203</identity>
+        <crime>Đánh nhau</crime>
+        <punishment>10</punishment>
+        <dateIn>21/04/2023</dateIn>
+        <prisonId>4</prisonId>
+    </prisoner>
+    <prisoner>
+        <name>Alexander J</name>
+        <age>20</age>
+        <address>Hải Dương</address>
+        <identity>030203011204</identity>
+        <crime>Đánh nhau</crime>
+        <punishment>10</punishment>
+        <dateIn>21/04/2023</dateIn>
+        <prisonId>4</prisonId>
+    </prisoner>
+    <prisoner>
+        <name>Lê Văn N</name>
+        <age>20</age>
+        <address>Hải Dương</address>
+        <identity>030203011205</identity>
+        <crime>Đánh nhau</crime>
+        <punishment>10</punishment>
+        <dateIn>21/04/2023</dateIn>
+        <prisonId>4</prisonId>
+    </prisoner>
+    <prisoner>
+        <name>Đỗ Đức P</name>
+        <age>30</age>
+        <address>Hải Dương</address>
+        <identity>030203011210</identity>
+        <crime>Buôn người</crime>
+        <punishment>36</punishment>
+        <dateIn>03/03/2023</dateIn>
+        <prisonId>2</prisonId>
+    </prisoner>
+</prisoners>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<prisons>
+    <prison>
+        <id>1</id>
+        <name>Nhà tù hình trái tim</name>
+        <address>Heart_Shape</address>
+        <phone>0123456789</phone>
+        <numberPrisoner>3</numberPrisoner>
+    </prison>
+    <prison>
+        <id>2</id>
+        <name>Suối Hai</name>
+        <address>Ba Vì - Hà Nội</address>
+        <phone>0123456789</phone>
+        <numberPrisoner>4</numberPrisoner>
+    </prison>
+    <prison>
+        <id>3</id>
+        <name>Hoàng Tiến</name>
+        <address>Hải Dương</address>
+        <phone>0123456789</phone>
+        <numberPrisoner>1</numberPrisoner>
+    </prison>
+    <prison>
+        <id>4</id>
+        <name>Hỏa Lò</name>
+        <address>Hà Nội</address>
+        <phone>0123456789</phone>
+        <numberPrisoner>4</numberPrisoner>
+    </prison>
+    <prison>
+        <id>5</id>
+        <name>Chí Hòa</name>
+        <address>Sài Gòn</address>
+        <phone>0123456789</phone>
+        <numberPrisoner>0</numberPrisoner>
+    </prison>
+</prisons>
