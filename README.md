@@ -1,6 +1,6 @@
 # OOP-Final
 Bài làm của Bùi Dương Khâm lớp tín chỉ OOP JAVA N08, mã sinh viên 21011219, lớp niên chế K15-KHMT
-Lưu ý: Bài làm hoàn toàn trên IDE Intellij IDEA nên có thể sẽ chưa tương thích với các IDE khác. Nếu có một số lỗi cài đặt xảy ra, xin cô (thầy) cố gắng khắc phục. Em xin cảm ơn!
+<p>Lưu ý: Bài làm hoàn toàn trên IDE Intellij IDEA nên có thể sẽ chưa tương thích với các IDE khác. Nếu có một số lỗi cài đặt xảy ra, xin cô (thầy) cố gắng khắc phục. Em xin cảm ơn!</p>
 Cấu trúc project (chỉ tính phần src)
 File chạy chương trình chính: App.java
 3 File lần lượt lưu trữ thông tin của nhà tù, tù nhân, người thăm nuôi tù nhân: prison.xml, prisoner.xml, visitor.xml
