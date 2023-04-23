@@ -115,11 +115,14 @@ public class PrisonerController {
                 try {
                     // Xóa những người thăm nuôi của tù nhân này
                     List<Visitor> list_visitor = visitorStore.getVisitorList();
+                    List<Visitor> draft = new ArrayList<>();
                     for (Visitor visitor : list_visitor) {
-                        if (visitor.getPrisonerID().equals(prisoner.getIdentity())) {
-                            visitorStore.removeVisitor(visitor);
+                        if (!visitor.getPrisonerID().equals(prisoner.getIdentity())) {
+                            draft.add(visitor);
                         }
                     }
+                    visitorStore.setVisitorList(draft);
+                    // Xóa tù nhân
                     prisonerStore.removePrisoner(prisoner);
                     prisonerView.showListPrisoners(prisonerStore.getListPrisonersByPrisonId(id));
                     prisonerView.clearPrisonerInfo();

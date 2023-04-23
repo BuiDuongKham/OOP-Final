@@ -38,6 +38,7 @@ public class VisitorStore {
 
     public void setVisitorList(List<Visitor> visitorList) {
         this.visitorList = visitorList;
+        visitorDao.writeListVisitors(this.visitorList);
     }
 
     public void addVisitor(Visitor visitor) {

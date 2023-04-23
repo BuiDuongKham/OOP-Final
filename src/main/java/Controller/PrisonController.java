@@ -105,30 +105,26 @@ public class PrisonController {
             Prison prison = prisonView.getPrisonInfo();
             if (prison != null) {
                 // Xóa nhà tù kèm theo những tù nhân + thân nhân thăm gặp
-//                try {
-                    List<Prisoner> prisoners = prisonerStore.getListPrisonersByPrisonId(prison.getId());
-//                    System.out.println(prisoners.size());
-                    for (Prisoner prisoner : prisoners) {
-                        List<Visitor> visitors = visitorStore.getVisitorListByPrisonerId(prisoner.getIdentity());
-                        System.out.println(visitors.size());
-                        for (Visitor visitor : visitors) {
-                            visitorStore.removeVisitor(visitor);
+                List<Prisoner> prisoners = prisonerStore.getListPrisonersByPrisonId(prison.getId());
+                for (Prisoner prisoner : prisoners) {
+                    List<Visitor> visitors = visitorStore.getVisitorList();
+                    List<Visitor> draft = new ArrayList<Visitor>();
+                    for (Visitor visitor : visitors) {
+                        if (!visitor.getPrisonerID().equals(prisoner.getIdentity())) {
+                            draft.add(visitor);
                         }
                     }
-                    for (Prisoner prisoner : prisoners) {
-                        prisonerStore.removePrisoner(prisoner);
-                    }
-                    prisonStore.removePrison(prison);
-                    prisonView.showListPrisons(prisonStore.getListPrisons());
-                    prisonView.updateNumberPrisoner(prisonerStore.getListPrisoners().size());
-                    prisonView.updateNumberPrison(prisonStore.getListPrisons().size());
-                    prisonView.clearPrisonInfo();
-                    prisonView.showMess("Xóa thành công!");
-//                } catch ( Exception ex)
-//                {
-//                    prisonView.showMess("1 lỗi vừa xảy ra. Xin vui lòng thử lại sau!");
-//                    ex.getStackTrace();
-//                }
+                    visitorStore.setVisitorList(draft);
+                }
+                for (Prisoner prisoner : prisoners) {
+                    prisonerStore.removePrisoner(prisoner);
+                }
+                prisonStore.removePrison(prison);
+                prisonView.showListPrisons(prisonStore.getListPrisons());
+                prisonView.updateNumberPrisoner(prisonerStore.getListPrisoners().size());
+                prisonView.updateNumberPrison(prisonStore.getListPrisons().size());
+                prisonView.clearPrisonInfo();
+                prisonView.showMess("Xóa thành công!");
             }
         }
     }

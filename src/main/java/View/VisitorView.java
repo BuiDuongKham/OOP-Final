@@ -30,7 +30,7 @@ public class VisitorView extends JFrame {
     public JTextField tfCountVisitor;
     private JLabel labCountVisitor;
 
-    private String[] columnNames = {"Name", "Address", "Phone", "Register", "Entity.Prisoner Name", "Entity.Prisoner ID"};
+    private String[] columnNames = {"Tên", "Quê quán", "Điện thoại", "Ngày đăng ký", "Tên phạm nhân", "ID Phạm Nhân"};
     private Object data = new Object [][] {};
 
     public VisitorView() {
@@ -107,11 +107,11 @@ public class VisitorView extends JFrame {
             showMess("Tháng 2 năm không nhuận chỉ có 28 ngày");
             return null;
         }
-        if (dateInYear <= currentYear){
+        if (dateInYear < currentYear){
             showMess("Ngày thăm nuôi phải lớn hơn ngày hiện tại");
             return null;
         }
-        if (dateInYear == currentYear && dateInMonth <= currentMonth){
+        if (dateInYear == currentYear && dateInMonth < currentMonth){
             showMess("Ngày thăm nuôi phải lớn hơn ngày hiện tại");
             return null;
         }
