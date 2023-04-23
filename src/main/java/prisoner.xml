@@ -121,23 +121,13 @@
         <prisonId>2</prisonId>
     </prisoner>
     <prisoner>
-        <name>Đỗ Văn N</name>
+        <name>Nguyễn Văn A</name>
         <age>18</age>
-        <address>HD</address>
-        <identity>012345678910</identity>
-        <crime>Phạm Fap</crime>
-        <punishment>10</punishment>
+        <address>Hải Dương</address>
+        <identity>030203011223</identity>
+        <crime>Đánh nhau </crime>
+        <punishment>12</punishment>
         <dateIn>22/04/2023</dateIn>
-        <prisonId>6</prisonId>
-    </prisoner>
-    <prisoner>
-        <name>Lê Văn K</name>
-        <age>30</age>
-        <address>HD</address>
-        <identity>012345678920</identity>
-        <crime>Buôn người</crime>
-        <punishment>20</punishment>
-        <dateIn>20/04/2023</dateIn>
-        <prisonId>6</prisonId>
+        <prisonId>1</prisonId>
     </prisoner>
 </prisoners>

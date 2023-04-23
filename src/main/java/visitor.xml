@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<visitors/>
+<visitors>
+    <visitor>
+        <name>Nguyễn Văn Z</name>
+        <address>Hải Dương</address>
+        <phone>0123456789</phone>
+        <register>25/04/2023</register>
+        <prisonerName>Nguyễn Văn A</prisonerName>
+        <prisonerID>030203011295</prisonerID>
+    </visitor>
+</visitors>

@@ -197,6 +197,7 @@ public class PrisonerView extends JFrame{
         tfAge.setText("");
         tfAddress.setText("");
         tfIdentity.setText("");
+        tfIdentity.setEditable(true);
         tfCrime.setText("");
         tfPunishment.setText("");
         tfDateIn.setText("");
@@ -219,6 +220,7 @@ public class PrisonerView extends JFrame{
             tfPunishment.setText(table1.getValueAt(row, 5).toString());
             tfDateIn.setText(table1.getValueAt(row, 6).toString());
             tfImprisonedIn.setText(table1.getValueAt(row, 7).toString());
+            tfIdentity.setEditable(false);
             // enable edit, delete button
             editButton.setEnabled(true);
             deleteButton.setEnabled(true);
