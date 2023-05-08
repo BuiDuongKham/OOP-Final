@@ -19,10 +19,6 @@ public class PrisonStore {
             list = new ArrayList<Prison>();
         }
         // in ra màn hình để kiểm tra
-        System.out.println("Logging");
-        for (Prison prison : list) {
-            System.out.println(prison.getId() + " "  + prison.getNumberPrisoner());
-        }
         return list;
     }
 

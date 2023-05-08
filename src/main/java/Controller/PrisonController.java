@@ -204,7 +204,7 @@ public class PrisonController {
             List<Prison> prisons = prisonStore.getListPrisons();
             List<Prison> found  = new ArrayList<>();
             for (Prison prison : prisons) {
-                if (prison.getName().equals(prisonView.getSearchName())) {
+                if (prison.getName().contains(prisonView.getSearchName())) {
                     check = true;
                     found.add(prison);
                 }

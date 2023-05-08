@@ -130,4 +130,14 @@
         <dateIn>22/04/2023</dateIn>
         <prisonId>1</prisonId>
     </prisoner>
+    <prisoner>
+        <name>ABC</name>
+        <age>12</age>
+        <address>HD</address>
+        <identity>123456789010</identity>
+        <crime>HD</crime>
+        <punishment>1</punishment>
+        <dateIn>05/05/2023</dateIn>
+        <prisonId>1</prisonId>
+    </prisoner>
 </prisoners>

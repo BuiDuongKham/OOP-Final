@@ -239,7 +239,7 @@ public class PrisonerController {
             List<Prisoner> Result = new ArrayList<>();
             List<Prisoner> Draft = prisonerDao.getListPrisonersByPrisonId(id);
             for (Prisoner p : Draft) {
-                if (p.getName().equals(prisonerView.tfSearch.getText().trim())) {
+                if (p.getName().contains(prisonerView.tfSearch.getText().trim())) {
                     Result.add(p);
                 }
             }

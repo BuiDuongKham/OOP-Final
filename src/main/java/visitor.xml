@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <visitors>
     <visitor>
+        <name>Tran Van G</name>
+        <address>1</address>
+        <phone>1231231233</phone>
+        <register>15/05/2023</register>
+        <prisonerName>Nguyễn Văn A</prisonerName>
+        <prisonerID>030203011295</prisonerID>
+    </visitor>
+    <visitor>
+        <name>ABC</name>
+        <address>A</address>
+        <phone>1231231234</phone>
+        <register>17/05/2023</register>
+        <prisonerName>Nguyễn Văn A</prisonerName>
+        <prisonerID>030203011295</prisonerID>
+    </visitor>
+    <visitor>
         <name>Nguyễn Văn Z</name>
         <address>Hải Dương</address>
         <phone>0123456789</phone>
