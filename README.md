@@ -26,7 +26,7 @@ Bài làm của Bùi Dương Khâm lớp tín chỉ OOP JAVA N08, mã sinh viên
 <h3>Khi chọn "Danh sách đăng kí thăm nuôi", giao diện danh sách những người đăng kí thăm nuôi sẽ hiện ra</h3>
 <img src="https://github.com/BuiDuongKham/OOP-Final/blob/master/src/Instruction/ListVisitorView.PNG"/>
 <h2> Ở màn hình nhà tù, chọn 1 nhà tù bất kì khi nhần vào "Quản lý", giao diện quản lý tù nhân trong nhà tù sẽ hiện ra như sau</h2>
-<img src="https://github.com/BuiDuongKham/OOP-Final/blob/master/src/Instruction/PrisonerView.PNG" />
+<img src="https://github.com/BuiDuongKham/OOP-Final/blob/master/src/Instruction/PrisonerView_new.PNG" />
 <p> Giao diện quản lý tù nhân có các chức năng như sau: thêm,sửa, xóa, đăng kí thăm nuôi, tìm kiếm (theo tên, ID), sắp xếp (theo ID, tuổi, Tên)</p>
 <p> Một số quy tắc khi thêm tù nhân </p>
 <ol>
@@ -37,7 +37,7 @@ Bài làm của Bùi Dương Khâm lớp tín chỉ OOP JAVA N08, mã sinh viên
 </ol>
     
 <h3> Màn hình thăm nuôi </h3>
-<img src="https://github.com/BuiDuongKham/OOP-Final/blob/master/src/Instruction/VisitorView.PNG" />
+<img src="https://github.com/BuiDuongKham/OOP-Final/blob/master/src/Instruction/VisitorView_new.PNG" />
 <p> Một số quy tắc khi thêm người thăm nuôi </p>
 <ol>
     <li> Thăm nuôi không được trùng ngày với những người thăm nuôi trước </li>
