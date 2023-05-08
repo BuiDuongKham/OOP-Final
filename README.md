@@ -16,7 +16,7 @@ Bài làm của Bùi Dương Khâm lớp tín chỉ OOP JAVA N08, mã sinh viên
     
 ## Work Flow
 <h2>Khi bắt đầu chạy file App, giao diện hiện ra sẽ như sau:</h2>
-<img src="https://github.com/BuiDuongKham/OOP-Final/blob/master/src/Instruction/PrisonView.PNG" />
+<img src="https://github.com/BuiDuongKham/OOP-Final/blob/master/src/Instruction/PrisonView_new.PNG" />
 <p> Đây là giao diện quản lý các nhà tù có các chức năng: thêm, sửa, xóa, tìm kiếm (theo tên nhà tù và ID tù), sắp xếp(theo ID, theo số tù nhân, theo tên), thống kê số lượng nhà tù, thống kê tổng số tù nhân, xem danh sách thân nhân đăng kí thăm nuôi</p>
 <p> Một số quy tắc khi thêm nhà tù </p>
 <ol>
